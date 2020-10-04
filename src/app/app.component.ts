@@ -24,7 +24,7 @@ export class AppComponent {
 
   }
   getContact(x) {
-    return this.http.get('http://35.239.35.192:32002/');
+    return this.http.get('http://35.239.35.192:5000/');
   }
 
 
